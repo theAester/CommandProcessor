@@ -41,10 +41,10 @@ if(cp.hasFlag("-f")){ // true
 
 ```
 
-The internal structure of the cp object is:
+The internal structure of the cp object in our little example is:
 * command = "open"
 * args:
-  * file
+  * "file"
 * flags:
   * "-f" : "C:\Users\Richard\penis profile\ee.txt"
   * "-readonly" : ""
