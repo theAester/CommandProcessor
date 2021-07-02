@@ -1,5 +1,4 @@
-package control;
-
+//package
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.ArrayList;
