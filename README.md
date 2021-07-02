@@ -7,11 +7,12 @@ you can put it however you want <br>
 
 Its very very simple
 
-it breaks down the command(the whole line) into three parts:
-&bull; command
-&bull; args
+it breaks down the command(the whole line) into three parts:<br>
+&bull; command<br>
+&bull; args<br>
 &bull; flags
 
+Description:
 - command is basically the first word in line
 - args are the words that come after the command
 - flags are the ones that have that little "-" before them and theyre usually followed by another word (or a whole expression in quotes) as their attribute...
