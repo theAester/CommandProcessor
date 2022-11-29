@@ -47,7 +47,7 @@ The internal structure of the cp object in our little example is:
 * args:
   * "file"
 * flags:
-  * "-f" : "C:\Users\Richard\penis profile\ee.txt"
+  * "-f" : "C:\Users\Richard\profile\ee.txt"
   * "-readonly" : ""
   * "-o" : "LOCK_EX"
 
