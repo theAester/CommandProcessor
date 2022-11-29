@@ -19,7 +19,7 @@ Description:
 - flags are the ones that have that little "-" before them and theyre usually followed by another word (or a whole expression in quotes) as their attribute...
 
 Example:
-`Open file -f "C:\Users\Richard\penis profile\ee.txt" -readonly -o LOCK_EX`
+`Open file -f "C:\Users\Richard\profile\ee.txt" -readonly -o LOCK_EX`
 
 now in java:
 ```java
@@ -31,7 +31,7 @@ String command = cp.getCommand(); // command = "open" ( case insensitive! so eve
 int argCount = cp.getArgCount(); // argCount = 1
 String arg1 = cp.getArg(0); //arg1 = "file"
 if(cp.hasFlag("-f")){ // true
-  String filePath = cp.getFlag("-f"); // filePath = "c:\users\richard\penis profile\ee.txt" (everything inside the quotes, basically)
+  String filePath = cp.getFlag("-f"); // filePath = "c:\users\richard\profile\ee.txt" (everything inside the quotes, basically)
   // if you're a hardcore linux user, you might've just noticed the problem here. well.... 
   // yes, thats a huge bug but be patient im gonna patch it up real quick!
   // ofcourse the problem could be avoided by using the case sesitive option but still, that sucks.
